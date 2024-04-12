@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  width: 40%;
+  margin-right: 60px;
+  margin-bottom: 40px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+}
+
+.event-name {
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.location {
+  margin-top: 5px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.button:focus {
+  border: 2px solid #2dd4bf;
+  border-radius: 5px;
+}

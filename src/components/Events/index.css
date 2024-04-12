@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-event-container {
+  display: flex;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.unordered-list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.event-details-container {
+  width: 45%;
+  color: #ffffff;
+  background-color: #3a4b63;
+  display: flex;
+  padding: 70px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-1 {
+  height: 300px;
+  width: 500px;
+}
+
+.registrationInitialStyle {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.registrationStyle {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
